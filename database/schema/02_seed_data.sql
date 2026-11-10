@@ -1,18 +1,3 @@
-/*
-    Sales Analytics - synthetic demonstration data (SQL Server 2025)
-
-    WARNING: Intended for ONE-TIME execution against a fresh, empty
-    SalesAnalytics database after 01_create_tables.sql has created the tables.
-    Must NOT be rerun against existing populated tables.
-    All names, email addresses, purchases, and product data are synthetic.
-
-    Expected rows: 5 Customers, 6 Products, 10 Orders, 11 OrderItems.
-    Categories are demonstration labels for the required Category column.
-    Customer IDs are resolved by unique email addresses. Product IDs are
-    resolved by product names, which are distinct within this seed dataset.
-    Orders are resolved by customer email and order date, a combination that
-    is distinct in this dataset but is not a schema-enforced business key.
-*/
 
 USE [SalesAnalytics];
 GO
