@@ -1,11 +1,4 @@
 /*
-    Sales Analytics - table definitions
-    Target platform: SQL Server 2025
-
-    Intended for a fresh, empty SalesAnalytics database.
-    Select SalesAnalytics as the active database before running this script.
-    This script does not create or replace the database and is not intended
-    to be rerun against a database that already contains these tables.
 
     Dependency order: Customers, Products, Orders, OrderItems.
 */
